@@ -15,3 +15,7 @@ with bike as (
 
 select *
 from bike
+
+/*
+dbt run --select station_dimension
+*/
