@@ -36,3 +36,8 @@ with daily_weather as (
 
 select *
 from daily_weather_agg
+
+
+/*
+dbt run --select daily_weather
+*/
